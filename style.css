@@ -1,0 +1,49 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ecc38e;
+}
+.wave1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#about {
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+#contact {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#github {
+  width: 8rem;
+}
+
+#instagram {
+  width: 8rem;
+}
+
+#linkedin {
+  width: 8rem;
+}
+
+#telephone {
+  width: 8rem;
+}
+
+#gmail {
+  width: 8rem;
+}
+
+#bot {
+  width: 8rem;
+}
