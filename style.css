@@ -39,6 +39,7 @@ section {
 .services,
 .skills,
 .project,
+.certificate,
 .contact,
 footer {
   font-family: "Poppins", sans-serif;
@@ -280,6 +281,22 @@ section .title::after {
   background: #111;
   content: "what i provide";
 }
+
+.services,
+.certificate {
+  color: #fff;
+  background: #111;
+}
+.services .title::before,
+.certificate .title::before {
+  background: #fff;
+}
+.services .title::after,
+.certificate .title::after {
+  background: #111;
+  content: "what i provide";
+}
+
 .services .serv-content .card {
   width: calc(33% - 20px);
   background: #222;
@@ -453,7 +470,72 @@ section .title::after {
   background: #ffc64b !important;
 }
 
+/* certificate section styling */
+
+.certificate .title::after {
+  content: "This is My Certificates What I've Been Achieved";
+}
+.certificate .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.certificate .carousel .card:hover {
+  background: #ffc64b;
+}
+.certificate .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.certificate .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+.certificate .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+.certificate .carousel .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffc64b;
+  transition: all 0.3s ease;
+}
+.certificate .carousel .card:hover img {
+  border-color: #fff;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid #ffc64b !important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: #ffc64b !important;
+}
+
 /* contact section styling */
+
 .contact .title::after {
   content: "get in touch";
 }
@@ -550,13 +632,13 @@ section .title::after {
 }
 /* footer section styling */
 footer {
-  background: #111;
+  background: #ffc64b;
   padding: 15px 23px;
   color: #fff;
   text-align: center;
 }
 footer span a {
-  color: #ffc64b;
+  color: #111;
   text-decoration: none;
 }
 footer span a:hover {
