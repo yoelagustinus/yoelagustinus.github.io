@@ -274,12 +274,12 @@ section .title::after {
 }
 .services .title::before,
 .project .title::before {
-  background: #fff;
+  /* background: #fff; */
 }
 .services .title::after,
 .project .title::after {
   background: #111;
-  content: "what i provide";
+  /* content: "what i provide"; */
 }
 
 .services,
@@ -407,10 +407,10 @@ section .title::after {
   width: 90%;
 }
 
-/* project section styling */
-.project .title::after {
-  content: "Project What I've Been Done";
-}
+/* Software Dev Project section styling */
+/* .project .title::after {
+  content: "Software Developer Project What I've Been Done";
+} */
 .project .carousel .card {
   background: #222;
   border-radius: 6px;
@@ -471,7 +471,6 @@ section .title::after {
 }
 
 /* certificate section styling */
-
 .certificate .title::after {
   content: "This is My Certificates What I've Been Achieved";
 }
